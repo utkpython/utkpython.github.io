@@ -9,5 +9,5 @@ sources used
 =================
 table-grid by @mdo
 
-*this
+
 
