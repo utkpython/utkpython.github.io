@@ -1,15 +1,12 @@
-utkpython.github.io
-===================
+## utkpython.github.io
 
 public site for utk business analytics python seminar
 
 
-sources used
-=================
+## sources used
 table-grid by @mdo
 
-License
-=================
+## License
 public domain
 (although free beer is appreciated)
 
