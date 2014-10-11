@@ -10,9 +10,9 @@ some examples from Wes McKinney's [Python for Data Analysis](http://shop.oreilly
 
 ## License
 Modified Public Domain
-*stipulation 1: use this code to help the people
-*stipulation 2: consider thanking us
-*stipulation 3: we, the authors, appreciate free beer
+* stipulation 1: use this code to help the people
+* stipulation 2: consider thanking us
+* stipulation 3: we, the authors, appreciate free beer
 
 
 
