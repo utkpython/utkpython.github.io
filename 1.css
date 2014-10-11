@@ -59,6 +59,7 @@ p {
 
 p .muted {
   color: #ddd;
+  background-color: #333;
 }
 
 .container > p {
