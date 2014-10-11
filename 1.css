@@ -16,6 +16,7 @@ body {
   padding-bottom: 3rem;
   font: 1rem/1.5 "Helvetica Neue", sans-serif;
   color: #555;
+  text-align: center;
   background-color: #fff;
 }
 
@@ -54,6 +55,7 @@ h2 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  text-align: left;
 }
 
 .muted {
