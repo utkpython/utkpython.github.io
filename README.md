@@ -1,4 +1,4 @@
-## [utkpython.github.io](utkpython.github.io)
+## [utkpython.github.io](http://utkpython.github.io)
 
 public site for utk business analytics python seminar
 
