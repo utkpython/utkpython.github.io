@@ -55,12 +55,12 @@ h2 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  text-align: center;
+  text-align: left;
 }
 
 .muted {
   color: #999;
-  text-align: right;
+  text-align: center;
 }
 
 .container > p {
