@@ -56,6 +56,11 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
+
+p .strong {
+  font-weight: bold;
+}
+
 .container > p {
   margin: .5rem auto 1rem;
   max-width: 800px;
