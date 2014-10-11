@@ -57,9 +57,8 @@ p {
   margin-bottom: 1rem;
 }
 
-p .muted {
+.muted {
   color: #ddd;
-  background-color: #333;
 }
 
 .container > p {
