@@ -60,6 +60,7 @@ p {
 
 .muted {
   color: #999;
+  text-align: right;
 }
 
 .container > p {
