@@ -12,7 +12,7 @@ Modified Public Domain
 
 The code and slides used throughout this seminar are open for the public to use as they wish.
 
-* stipulation 1: use this code to help the people
+* stipulation 1: use this code to help people
 * stipulation 2: consider thanking us
 * stipulation 3: we, the authors, appreciate free beer
 
