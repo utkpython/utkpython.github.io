@@ -1,0 +1,6 @@
+1 arithmetic
+2 types
+3 import statement
+4 loops
+5 lists
+6 interesting example
