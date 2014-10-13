@@ -12,9 +12,9 @@
 # np.std(a)
 
 
-from datetime import date
-today = date.today()
-christmas = date(2014,12,25)
-d = (christmas - today).days
+#from datetime import date
+#today = date.today()
+#christmas = date(2014,12,25)
+#d = (christmas - today).days
 
-print d, "days until christmas"
+#print d, "days until christmas"
