@@ -16,5 +16,20 @@
 
 #e = (1 + 1/100000.)**100000
 
+#One way to estimate pi is to use the following infinite series
+
+#index = 1
+#pi = 0.
+#pie = 4.
+#while abs(pi-pie) > .00001:
+#    pie = pi
+#    pi = pi + (-1)**(index + 1)/(2.*index-1)
+#    index = index + 1
+#print 4*pi
+
+#Or we can do this
+#import math
+#print math.pi
+
 
 
