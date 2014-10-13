@@ -10,3 +10,11 @@
 # a = [1,2,3,4,5]
 # np.mean(a)
 # np.std(a)
+
+
+from datetime import date
+today = date.today()
+christmas = date(2014,12,25)
+d = (christmas - today).days
+
+print d, "days until christmas"
