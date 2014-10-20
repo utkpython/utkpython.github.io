@@ -6,20 +6,15 @@ import re
 import pylab as pl
 import numpy as np
 
-
 a = wikipedia.page("Python (programming language)")
-b = wikipedia.page("R (programming language)")
 
 ua = string.upper(a.content)
-ub = string.upper(b.content)
 
 ua = re.sub(r'[^\w\s]','',ua)
 
 lista = string.split(ua)
-listb = string.split(ub)
 
 uua = {}
-uub = []
 
 for word in lista:
 	if word not in uua:
