@@ -1,3 +1,5 @@
+# A basic wikipedia scraper
+# it graphs the frequencies of words in a given wikipedia article
 import wikipedia
 import string
 import re
