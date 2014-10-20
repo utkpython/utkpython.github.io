@@ -3,6 +3,9 @@
 import wikipedia
 import string
 import re
+import pylab as pl
+import numpy as np
+
 
 a = wikipedia.page("Python (programming language)")
 b = wikipedia.page("R (programming language)")
@@ -28,9 +31,6 @@ uuas = sorted(uua)
 
 for word in uuas:
 	print word, uua[word]
-
-import pylab as pl
-import numpy as np
 
 X = np.arange(len(uua))
 pl.bar(X, uua.values(), align='center', width=0.5)
