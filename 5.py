@@ -43,3 +43,11 @@
 #change_oil = ['porsch', 'golf cart']
 #things_to_do = [groceries, feed_pets, change_oil]
 #print(things_to_do)
+#things_to_do.sort()
+#print(things_to_do)
+#print things_to_do[1]
+#things_to_do[1].sort()
+#print things_to_do[1]
+
+
+
