@@ -3,5 +3,6 @@
 3 import statement
 4 loops
 5 lists
-6 summary statistics
-7 interesting example
+6 plots
+7 summary statistics
+8 interesting example
