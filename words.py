@@ -27,30 +27,7 @@ uuas = sorted(uua)
 for word in uuas:
 	print word, uua[word]
 	
-"""
-def invert_dict(d):
-    inverse = dict()
-    for key in d:
-        val = d[key]
-        if val not in inverse:
-            inverse[val] = [key]
-        else:
-            inverse[val].append(key)
-    return inverse
-a = invert_dict(uua)
-
-b = a.keys()
-
-b.sort(reverse = True)
-
-c = {}
-for x in b[:15]:
-    d = str(a[x]).strip('[]')
-    c[d] = x
-    
-uua = c
 	
-"""	
 	
 	
 
