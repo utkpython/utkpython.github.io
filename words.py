@@ -14,7 +14,7 @@ ua = re.sub(r'[^\w\s]','',ua)
 
 lista = string.split(ua)
 
-common_words = ["THE"  ,"A"  ,"OF"  ,"OR"  ,"IS"  ,"AND"  ,"TO"  ,"IN"  ,"F"  ,"AS"  ,"ARE"  ,"BY"  ,"BE"  ,"HAS"  ,"THAT"  ,"IT"  ,"WITH"  ,"WHICH"  ,"AN"  ,"ALSO"  ,"THAN" ,"ON"  ,"THAT"  ,"THAT"  ,"USE"  ,"FROM" ,"THIS" ,"SUCH"  ,"3"  ,"SUCH"  ,"WAS"  ,"CAN"  ,"ITS"  ,"USED"]
+common_words = ["THE"  ,"A"  ,"OF"  ,"OR"  ,"IS"  ,"AND"  ,"TO"  ,"IN"  ,"FOR"  ,"AS"  ,"ARE"  ,"BY"  ,"BE"  ,"HAS"  ,"THAT"  ,"IT"  ,"WITH"  ,"WHICH"  ,"AN"  ,"ALSO"  ,"THAN" ,"ON"  ,"THAT"  ,"THAT"  ,"USE"  ,"FROM" ,"THIS" ,"SUCH"  ,"3"  ,"SUCH"  ,"WAS"  ,"CAN"  ,"ITS"  ,"USED"]
 unique_words = []
 for i in lista:
     if i not in common_words:
