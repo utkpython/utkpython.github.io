@@ -16,7 +16,7 @@ lista = string.split(ua)
 ########
 jim = []
 for i in lista:
-    if i == "THE" or i == "A" or i == "OF" or i == "IS" or i == "AND" or i == "TO" or i == "IN" or i == "FOR" or i == "AS" or i == "ARE" or i == "BY" or i == "BE" or i == "HAS" or i == "THAT" or i == "IT" or i == "WITH" or i == "WHICH" or i == "AN" or i == "ALSO" or i == "THAN"or i == "ON" or i == "THAT" or i == "THAT" or i == "USE" or i == "FROM"or i == "THIS"or i == "SUCH" or i == "3" or i == "SUCH" or i == "WAS" or i == "CAN" or i == "ITS" or i == "USED":
+    if i == "THE" or i == "A" or i == "OF" or i == "IS" or i == "OR" or i == "AND" or i == "TO" or i == "IN" or i == "FOR" or i == "AS" or i == "ARE" or i == "BY" or i == "BE" or i == "HAS" or i == "THAT" or i == "IT" or i == "WITH" or i == "WHICH" or i == "AN" or i == "ALSO" or i == "THAN"or i == "ON" or i == "THAT" or i == "THAT" or i == "USE" or i == "FROM"or i == "THIS"or i == "SUCH" or i == "3" or i == "SUCH" or i == "WAS" or i == "CAN" or i == "ITS" or i == "USED":
         jim = jim
     else:
         jim = jim + [i]
