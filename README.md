@@ -9,6 +9,7 @@ public site for utk business analytics python seminar
 * Allen B. Downey's [Think Python: How to Think Like a Computer Scientist](http://www.greenteapress.com/thinkpython/thinkpython.html)
 * pythonic wrapper for Wikipedia API: [goldsmith/Wikipedia](https://github.com/goldsmith/Wikipedia)
 * terryyin's pythonic wrapper for Google Translate API [terryyin/google-translate-python](https://github.com/terryyin/google-translate-python)
+* stock quotes via Yahoo! Finance [cgoldberg/ystockquote](https://github.com/cgoldberg/ystockquote)
 
 ## License
 Modified Public Domain
