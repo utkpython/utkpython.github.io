@@ -8,6 +8,7 @@ public site for utk business analytics python seminar
 * some examples from Wes McKinney's [Python for Data Analysis](http://shop.oreilly.com/product/0636920023784.do)
 * Allen B. Downey's [Think Python: How to Think Like a Computer Scientist](http://www.greenteapress.com/thinkpython/thinkpython.html)
 * pythonic wrapper for Wikipedia API: [goldsmith/Wikipedia](https://github.com/goldsmith/Wikipedia)
+* terryyin's pythonic wrapper for Google Translate API [terryyin/google-translate-python](https://github.com/terryyin/google-translate-python)
 
 ## License
 Modified Public Domain
