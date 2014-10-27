@@ -13,10 +13,14 @@ abbreviations = {"English": "eng",
                  "Korean": "ko"}
 
 toGerman = Translator(to_lang=abbreviations["German"])
-toFrench = Translator(to_lang="abbreviations["French"])
+toFrench = Translator(to_lang=abbreviations["French"])
 toKorean = Translator(to_lang=abbreviations["Korean"])
+# make one for another one of the languages above
+# better yet, search for another language abbreviation, add it to our dictionary, and translate for that language
 
 toGerman.translate("Hi")
 toFrench.translate("Hi")
 toKorean.translate("Hi")
+
+
 
