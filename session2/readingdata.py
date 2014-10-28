@@ -15,8 +15,12 @@
 
 
 import pandas
-gpa=pandas.read_csv('hw7education.csv')
+gpa=pandas.read_csv('collegegpa.csv')
 gpa["College"]
+gpa = pandas. read_csv(‘collegegpa.csv’)
+gpa[1:1]     gpa[1:3]
+gpa[“College”]
+gpa[[“HS”, “ACT”]]
 
 
 
