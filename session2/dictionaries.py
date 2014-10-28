@@ -21,3 +21,16 @@
 #                "Ash Ketchum": 900000,
 #                "Barack Obama": 102000,
 #                "Marissa Mayer": 1000000}
+
+#for player in tetrisScores:
+#  print tetrisScores[player]
+
+#### a more complicated example
+#### didn't know that bill gates' birthday was actually 10/28 --- the day of the seminar
+#tetrisDB = { "Kim Kardashian":   {"high score":100000, "age": 34},
+#                "Kanye West":    {"high score": 80000, "age": 37},
+#                "Taylor Swift":  {"high score": 130000, "age": 24},
+#                "Bill Gates":    {"high score": 97000, "age": 60},
+#                "Ash Ketchum":   {"high score": 900000, "age": 10},
+#                "Barack Obama":  {"high score": 102000, "age": 53},
+#                "Marissa Mayer": {"high score": 1000000, "age": 39}}
