@@ -68,7 +68,7 @@ p {
   max-width: 800px;
 }
 
-.container .subtext p {
+.subtitle {
   color: #BBB;
   text-align: center;
 }
