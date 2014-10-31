@@ -68,6 +68,11 @@ p {
   max-width: 800px;
 }
 
+.container .subtext p {
+  color: #BBB;
+  text-align: center;
+}
+
 hr {
   max-width: 150px;
   margin: 1rem auto;
