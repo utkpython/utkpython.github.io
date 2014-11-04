@@ -10,6 +10,7 @@ public site for utk business analytics python seminar
 * pythonic wrapper for Wikipedia API: [goldsmith/Wikipedia](https://github.com/goldsmith/Wikipedia)
 * terryyin's pythonic wrapper for Google Translate API [terryyin/google-translate-python](https://github.com/terryyin/google-translate-python)
 * stock quotes via Yahoo! Finance [cgoldberg/ystockquote](https://github.com/cgoldberg/ystockquote)
+* countless answers from awesome people on stack overflow
 
 ## License
 Modified Public Domain
