@@ -1,15 +1,15 @@
 from random import randint
 import matplotlib.pyplot as plt
 
-"""simple example to get us started"""
-#heads = 0
-#tails = 0
+#"""simple example to get us started"""
+#num_heads = 0
+#num_tails = 0
 #for i in range(1, 10001):
 #    if randint(0,1):
-#        heads = heads + 1
+#        num_heads = num_heads + 1
 #    else:
-#        tails = tails + 1
-#heads/float(heads+tails)
+#        num_tails = num_tails + 1
+#num_heads/float(num_heads + num_tails)
 
 
 position = 0
