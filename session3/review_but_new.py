@@ -16,3 +16,9 @@ def func(x):
 
 anon = lambda x: x**2 + (1.)/x
 
+################
+# what does the 
+# following do?
+
+my_funky_list = [anon(i) for i in range(1,100)]
+
