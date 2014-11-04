@@ -22,7 +22,7 @@ def kablam(yourList):
 def kazam(yourList):
   '''this is another magical function'''
     if type(yourList) != list:
-        print "can't kazam"
+        return "can't kazam"
     else:
         LList = len(yourList)
         for i in range(1,LList):
