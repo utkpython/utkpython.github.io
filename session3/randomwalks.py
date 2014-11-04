@@ -30,6 +30,33 @@ for i in xrange(numSteps):
 
 plt.plot(walk)
 plt.show()
+#########length to 20 sim
+
+import matplotlib.pyplot as plt
+from random import randint
+position = 0
+
+walk = [position]
+lengths = []
+numSteps = 1000
+
+for i in xrange(numSteps):
+    
+    position = 0
+    walk = [position]
+    while abs(position) < 20:
+        if randint(0,1)==1:
+            step = 1         #take a step forward
+        else:
+            step = -1        #take a step backward    
+        position = position + step    
+        walk.append(position)
+    lengths.append(len(walk))
+
+plt.plot(lengths)
+plt.show()
+mean(lengths)
+
 
 ########2d
 positionx = 0
