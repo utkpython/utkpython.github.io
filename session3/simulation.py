@@ -6,10 +6,10 @@ from random import randint
 import matplotlib.pyplot as plt
 
 def rand_walk(numSteps, position, skill):
-    '''returns a random walk list of size numSteps
-       position is the starting position
+    '''Returns a random walk list of size numSteps + 1.
+       position is the starting position.
        skill is a measure of how far forward you are
-            able to walk'''
+            able to walk per turn.'''
     walk = [position]
     numSteps = numSteps
     for i in xrange(numSteps):
