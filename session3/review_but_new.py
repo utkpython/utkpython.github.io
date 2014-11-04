@@ -7,8 +7,6 @@
 def func(x):
     return x**3, "%s" %x, x+1
     
-    
-
 #################
 # anonymous
 # functions are 
