@@ -1,6 +1,4 @@
-/*
- * Styles for the Table Grid docs.
- */
+/** Styles for the Table Grid docs.*/
 
 html {
   font-size: 14px;
@@ -117,9 +115,6 @@ code {
   text-align: center;
   color: #333;
 }
-/*.grid-example .col:nth-child(odd) {
-  background-color: rgba(255,0,0,.3);
-}*/
 
 /* Nested grid examples need outdenting because padding. */
 .grid-example .grid-example {
