@@ -12,7 +12,7 @@ def is_prime(number):
     
 def gen_prime_list(upper_limit):
     '''Generates a list of prime numbers up 
-       upper_limit
+       to the upper_limit
        Example:
             gen_prime_list(10) returns
             [2,3,5,7]'''
