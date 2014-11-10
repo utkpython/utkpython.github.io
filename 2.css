@@ -1,12 +1,7 @@
-/*!
- * table-grid (http://mdo.github.io/table-grid)
- * Released under MIT, (c) 2014 Mark Otto
- */
+/*!* table-grid (http://mdo.github.io/table-grid)
+ * Released under MIT, (c) 2014 Mark Otto */
 
-
-/*
- * Container
- */
+/** Container*/
 
 /* Holds and centers the site content */
 .container {
@@ -15,10 +10,7 @@
   margin-left: auto;
 }
 
-
-/*
- * The Grid
- */
+/** The Grid*/
 
 @media (min-width: 600px) {
   /* Add `.grid` for the table */
@@ -57,12 +49,8 @@
   }
 }
 
-
-/*
- * Vertically center grid content
- *
- * Requires content within the column to be inline or inline-block.
- */
+/** Vertically center grid content*
+ * Requires content within the column to be inline or inline-block.*/
 
 .grid-align-middle .col {
   vertical-align: middle;
