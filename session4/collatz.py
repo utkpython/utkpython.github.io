@@ -1,6 +1,10 @@
 import matplotlib.pyplot as plt
 
 def collatz(x):
+    '''the basic collatz function
+    takes an integer, and returns accordingly'''
+    if type(x) != int:
+        return "fail"
     if x%2 == 0:
         x = x/2
     else:
