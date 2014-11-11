@@ -51,17 +51,17 @@ for i in unique:
         count[i].append(combo.count( j+i))
 
  
+ import numpy 
+ 
 b = Counter(wordlist)
 counts = {}
 for i in count:
-    counts[i] = array(count[i])/float(b[i])
+    counts[i] = numpy.array(count[i])/float(b[i])
 
 chain = pandas.DataFrame(counts, index = unique)
 
 
 
-
-import numpy 
 import random
 
 i = random.sample(unique,1)[0]
