@@ -1,4 +1,3 @@
-# goal: gather text sources, run markov chain algorithm, generate funny/creative/random phrases from sources
 import pandas
 from collections import Counter
 
@@ -12,27 +11,21 @@ Also appearing were Nedra Volz, who played Big Guy's senile first wife, Winona B
 
 Stanley, independently wealthy because he invested his money wisely, and thus not concerned about his inheritance from his father, was the nicest of the whole lot. Usually, it was Stanley who was able to protect Wild Bill and Bootsie (whom he and Mother B. accepted outright) from the devious scheming of his stepmother, who lusted after him; and his conniving brother and sister in-law."""
 
+words = '''I
+like
+pie'''
 
 words = words.replace('\n', ' ')
-words = words.replace('  ', ' ')
+words = words.replace('.', ' .')
+words = words.replace('?', ' ?')
+words = words.replace(')', ' )')
+words = words.replace('(', '( ')
+words = words.replace(';', ' ;')
+words = words.replace(':', ' ;')
 wordlist = words.split(" ")
 
-i =0
-while i < len(wordlist):     
-    for j in '?.,)(][}{\;:!':
-        if j in wordlist[i]:
-            wordlist[i] = wordlist[i].replace(j, '')
-            wordlist.insert(i + 1, j)
-            i = i+2
-            if i >= len(wordlist):
-                break
-    else:
-        i = i+1
 
-unique = []
-for i in wordlist:
-    if i not in unique:
-        unique.append(i)
+unique = list(set(wordlist))
 
 unique.sort()
 sameunique = unique
@@ -51,17 +44,17 @@ for i in unique:
         count[i].append(combo.count( j+i))
 
  
- import numpy 
- 
 b = Counter(wordlist)
 counts = {}
 for i in count:
-    counts[i] = numpy.array(count[i])/float(b[i])
+    counts[i] = array(count[i])/float(b[i])
 
 chain = pandas.DataFrame(counts, index = unique)
 
 
 
+
+import numpy 
 import random
 
 i = random.sample(unique,1)[0]
