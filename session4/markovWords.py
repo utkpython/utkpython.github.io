@@ -12,9 +12,6 @@ Also appearing were Nedra Volz, who played Big Guy's senile first wife, Winona B
 
 Stanley, independently wealthy because he invested his money wisely, and thus not concerned about his inheritance from his father, was the nicest of the whole lot. Usually, it was Stanley who was able to protect Wild Bill and Bootsie (whom he and Mother B. accepted outright) from the devious scheming of his stepmother, who lusted after him; and his conniving brother and sister in-law."""
 
-words = '''I
-like
-pie'''
 
 words = words.replace('\n', ' ')
 words = words.replace('  ', ' ')
