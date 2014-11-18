@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 from itertools import permutations
-from bionary import *
+
 
 
 f = open("dict.txt")
