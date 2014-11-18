@@ -1,4 +1,4 @@
-#bionary search
+#binary search
 
 words = open('words.txt')
 
