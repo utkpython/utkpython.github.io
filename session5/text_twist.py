@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 
 from itertools import permutations
+from bionary import *
+
 
 f = open("dict.txt")
 i = 1
@@ -17,6 +19,7 @@ for line in f:
 print "Done, processed " + str(i-1) + " items."
 
 f.close()
+l.sort()
 
 while True:
     i = raw_input("Search for: ")
@@ -33,7 +36,7 @@ while True:
     perms.sort(key=len)
     unique = []
     for p in perms:
-        if (slowsearch(p, l)) and p not in unique:
+        if (nsearch(p, l)) and p not in unique:
             print "Possilbe string: " + p
             unique.append(p)
 
@@ -53,6 +56,6 @@ while True:
     perms.sort(key=len)
     unique = []
     for p in perms:
-        if (search(p, l)) and p not in unique:
+        if (bisearch(p, l)) and p not in unique:
             print "Possilbe string: " + p
             unique.append(p)
