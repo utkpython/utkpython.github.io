@@ -33,6 +33,26 @@ while True:
     perms.sort(key=len)
     unique = []
     for p in perms:
-        if (p in l) and p not in unique:
+        if (slowsearch(p, l)) and p not in unique:
+            print "Possilbe string: " + p
+            unique.append(p)
+
+
+while True:
+    i = raw_input("Search for: ")
+    if (i.lower() == "exit" or i.lower() == "quit"):
+        break
+    if (len(i) > 6):
+        print "Length must be equal to or less than 6."
+        continue
+    perms = []
+    for m in range(1,len(i)+1):    
+        perm = [''.join(p) for p in permutations(i,m)]
+        perms = perms + perm
+    perms = list(set(perms))
+    perms.sort(key=len)
+    unique = []
+    for p in perms:
+        if (search(p, l)) and p not in unique:
             print "Possilbe string: " + p
             unique.append(p)
