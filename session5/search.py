@@ -15,17 +15,47 @@ dic = dictionary
 t = True
 mid = len(dic)/2
 mids = mid
-word = 'ant'
+word = 'fat'
+index = 0
 while t == True:
-    mids = mids/2
+    if mids%2 == 0:
+        mids = mids/2
+    else:
+        mids = mids/2 + 1
+    index += 1
     if word == dic[mid]:
         print mid
         print dic[mid]
         t = False
-    if word < dic[mid]:
+    elif word < dic[mid]:
         mid = mid - mids
         print mid
     else:
         mid = mid + mids
         print mid
         
+
+dic = dictionary
+
+def search(word, list):
+    t = True
+    mid = len(dic)/2
+    mids = mid
+    index = 0
+    while t == True:
+        if mids%2 == 0:
+            mids = mids/2
+        else:
+            mids = mids/2 +1
+        index += 1
+        if word == dic[mid]:
+            return mid , dic[mid]
+            t = False
+        elif word < dic[mid]:
+            mid = mid - mids
+        else:
+            mid = mid + mids
+        if index > log(len(dic))/log(2) + 1:
+            return "your word is not contained in this dictionary"
+            
+            
